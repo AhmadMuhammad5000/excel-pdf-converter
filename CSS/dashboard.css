@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(211, 192, 192);
+    padding: 1.5%;
+}
+
+.body{
+    background: #eee;
+    padding: 2%;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#label{
+    border: solid 1px gray;
+    border-style: dashed;
+    padding: .7%;
+}

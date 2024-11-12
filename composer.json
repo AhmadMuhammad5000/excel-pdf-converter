@@ -1,0 +1,19 @@
+{
+    "name": "ahmed/files-converter",
+    "autoload": {
+        "psr-4": {
+            "Ahmed\\FilesConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmad"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.25",
+        "mpdf/mpdf": "*",
+        "smalot/pdfparser": "^2.11",
+        "tecnickcom/tcpdf": "^6.7"
+    }
+}
